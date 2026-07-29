@@ -13,4 +13,4 @@ management:
       exposure:
         include: "*"
 
-msg: Greetings from Config Server to GreetApi
+msg: Hello from Config Server to GreetApi
