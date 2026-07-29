@@ -1,1 +1,16 @@
-msg: hello, Greet APi from Config Server
+server:
+  port: 2222
+
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+msg: Greetings from Config Server to GreetApi
