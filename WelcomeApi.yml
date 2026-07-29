@@ -10,4 +10,4 @@ management:
       exposure:
         include: "*"
 
-msg: Welcome from Config Server to WelcomeApi
+msg: Hello from Config Server to WelcomeApi
